@@ -21,6 +21,13 @@
     <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
+     <!-- The device supports freeform window management. Windows have title bars and can be moved
+         and resized. If you set this to true, you also need to add
+         PackageManager.FEATURE_FREEFORM_WINDOW_MANAGEMENT feature to your device specification.
+         The duplication is necessary, because this information is used before the features are
+         available to the system.-->
+    <bool name="config_freeformWindowManagement">true</bool>
+
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
          USB interfaces.  If the device doesn't want to support tething over USB this should
          be empty.  An example would be "usb.*" -->
