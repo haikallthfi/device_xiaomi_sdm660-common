@@ -30,6 +30,8 @@ gpu.stats.debug.level                   u:object_r:vendor_default_prop:s0
 ro.camera.res.fmq.size                   u:object_r:camera_ro_prop:s0
 ro.camera.req.fmq.size                   u:object_r:camera_ro_prop:s0
 ro.vendor.camera.                        u:object_r:camera_ro_prop:s0
+ro.vendor.camera.res.fmq.size            u:object_r:camera_ro_prop:s0
+ro.vendor.camera.req.fmq.size            u:object_r:camera_ro_prop:s0
 
 # Mlipay
 persist.vendor.sys.pay.                 u:object_r:mlipay_prop:s0
