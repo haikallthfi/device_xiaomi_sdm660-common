@@ -100,6 +100,14 @@ persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 
+# Rendering
+debug.enable.sglscale=1
+debug.egl.hw=1
+debug.sf.disable_hwc=0
+debug.sf.recomputecrop=0
+persist.hwc.ptor.enable=true
+debug.sf.gpu_comp_tiling=1
+
 # RCS
 persist.rcs.supported=1
 persist.radio.rat_on=combine
