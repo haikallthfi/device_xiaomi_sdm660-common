@@ -100,6 +100,12 @@ vendor.display.perf_hint_window=50
 # DRM
 drm.service.enabled=true
 
+# IMS
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
+
 # Media
 vendor.vidc.dec.enable.downscalar=1
 vendor.vidc.enc.disable_bframes=1
