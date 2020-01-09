@@ -437,6 +437,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
+# SQlite
+PRODUCT_PACKAGES += \
+    sqlite3
+
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
