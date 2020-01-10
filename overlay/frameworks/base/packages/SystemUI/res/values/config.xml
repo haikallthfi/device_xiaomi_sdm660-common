@@ -31,5 +31,5 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources>
     <!-- Doze: check proximity sensor before pulsing? -->
-    <bool name="doze_proximity_check_before_pulse">false</bool>
+    <bool name="doze_proximity_check_before_pulse">true</bool>
 </resources>
