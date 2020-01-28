@@ -461,6 +461,8 @@ product/framework/qcrilhook.jar|4eece9eb40a8976d2fd9a6a4d5d6dfea0c7674f5
 product/framework/qti-telephony-common.jar|5b1c23ce0d42e1b666d387eedde3444dd07e61bc
 product/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
+product/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|2687777322bb36e0ae14592c7b1ac71eacbbdc95
+product/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|42e64cf6723082cd81a86636555d35e31c600a35
 vendor/bin/adpl|cd2af02673c750d3cc2da4089bec751dc24f8597
 vendor/bin/ATFWD-daemon|bc2492087298a328d76d60560b11e480a79f3ad9
 vendor/bin/hw/qcrild|8d4ef5aa4f730e29d58b7e34ebb99ee17887e761
@@ -476,6 +478,7 @@ vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
 vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
 vendor/lib/libmdmdetect.so|eb82808a2e4e9cfe3746ddf71f49058d811b2e7d
+vendor/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|1e46c3893b158523a577fb65a2fb506b8bd74cf8
 vendor/lib64/libconfigdb.so|5107646977df88facf9d94a68435be098e347e16
 vendor/lib64/libdsi_netctrl.so|0ebac49bf30689509783a442825fe20e4e208753
 vendor/lib64/liblqe.so|11feb3081e1c517993d8bf730f1a65a4354280dc
