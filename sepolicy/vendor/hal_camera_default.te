@@ -5,3 +5,7 @@ allow hal_camera_default camera_data_file:dir { search };
 allow hal_camera_default camera_data_file:file { r_file_perms };
 
 get_prop(hal_camera_default, camera_ro_prop)
+
+userdebug_or_eng(`
+  get_prop(hal_camera_default, sensors_dbg_prop)
+')
