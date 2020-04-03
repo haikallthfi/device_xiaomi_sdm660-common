@@ -351,6 +351,8 @@
     <!-- Enable doze mode -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
     <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">17</integer>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
@@ -408,9 +410,6 @@
 
     <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
     <bool name="config_defaultRingtonePickerEnabled">true</bool>
-
-    <!-- Specify custom blanking delay of the display -->
-    <integer name="config_screen_off_delay">0</integer>
 
     <!-- Whether to artificially interpret all signal strengths as
          one bar higher than they actually are -->
