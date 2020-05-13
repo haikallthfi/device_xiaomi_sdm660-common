@@ -101,6 +101,9 @@ vendor.vidc.dec.enable.downscalar=1
 vendor.vidc.enc.disable_bframes=1
 vendor.vidc.enc.disable.pq=true
 
+# DPM
+persist.vendor.dpm.nsrm.bkg.evt=3955
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 vendor.perf.framepacing.enable=1
