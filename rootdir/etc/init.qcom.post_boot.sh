@@ -349,10 +349,8 @@ function configure_zram_parameters() {
         zRamSizeBytes=4294967296
     fi
 
-    if [ "$low_ram" == "true" ]; then
         echo lz4 > /sys/block/zram0/comp_algorithm
-    fi
-
+  
     if [ -f /sys/block/zram0/disksize ]; then
         if [ -f /sys/block/zram0/use_dedup ]; then
             echo 1 > /sys/block/zram0/use_dedup
