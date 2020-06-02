@@ -188,6 +188,14 @@ vendor/lib64/libhdcp1prov.so|25aa30d053c9d520526e15434ce80a2635a8a40c
 vendor/lib64/libhdcp2p2prov.so|de8347cbb242a1e069b42577ce810edad04d2afe
 vendor/lib64/liboemcrypto.so|db41cb588065ad0d92ac2a59db409420c021413b
 
+# eSE (Embedded Secure Element) Power Manager - from - LA.UM.8.2.r1-06500-sdm660.0
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|8adb9b42e9c2db3afb5f05e7f5aa525ccf00dedf
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|e54cbf5d492bb343cfce4c53b32b38e23a0ba42c
+vendor/lib/vendor.qti.esepowermanager@1.0.so|3341cf119f0079d97cbb32bfd2ebbef70b5ddff2
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|3fff44cbb1cf2cfcfe3886032da210ef0ead3198
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|93ecaff0ce279b4a9e7598ce83a9b6e1ee28c650
+
 # GPS - from jasmine
 etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
 etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
@@ -293,6 +301,20 @@ vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 # Graphics (Vulkan) - from jasmine
 vendor/lib/hw/vulkan.sdm660.so|87d87b2520d3a8adec7a24f5999a27b291edaeba
 vendor/lib64/hw/vulkan.sdm660.so|ad3a5d92c6c13ba0c937dd1b83f371e804a57c4e
+
+# IOP (IO Prefetcher) - from - LA.UM.8.2.r1-06500-sdm660.0
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|cd34c88527022cc0533f099d16d2beceea515620
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|3028eb81937a1748b686191a5bc599cc201645ad
+vendor/lib/libqti-iopd-client.so|4d7207d3e6a3fbe9acaff75a18ef659d0ab6dd91
+vendor/lib/libqti-iopd.so|71560b0c697931e56173efaa006e0e1319dc6e59
+vendor/lib/vendor.qti.hardware.iop@1.0.so|983cd9950076bf4e9c2b814dfde6add0826d468d
+vendor/lib/vendor.qti.hardware.iop@2.0.so|d0789f2247f38d1f7f87a48c7926703b1e44c054
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|34fed4ccdde47d65bdd335845690c09f2c8e356e
+vendor/lib64/libqti-iopd-client.so|123189bec7bec4746e9a5f2b173549d13f41f37d
+vendor/lib64/libqti-iopd.so|672bb37dcf7b1fc790e2ae08e55ccb9dd9e3ab99
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|a87a7a3e5091e3d4fa7019454335f4345c46e612
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|bed4a8487d9aea6090bae5b87ce3235343713e0a
 
 # Keymaster - from jasmine
 vendor/lib/libkeymasterdeviceutils.so|bc2aac023d99ec9e423d2f769019d187c99a8afb
