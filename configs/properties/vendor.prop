@@ -111,6 +111,7 @@ debug.sf.early_phase_offset_ns=1500000
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.disable_client_composition_cache=1
+debug.gralloc.gfx_ubwc_disable=0
 debug.sf.hw=1
 debug.sf.latch_unsignaled=0
 dev.pm.dyn_samplingrate=1
@@ -182,6 +183,16 @@ ril.subscription.types=NV,RUIM
 ro.telephony.default_network=22,22
 persist.sys.fflag.override.settings_network_and_internet_v2=true
 telephony.lteOnCdmaDevice=1
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+persist.vendor.radio.force_on_dc=true
 
 # RCS
 persist.rcs.supported=1
