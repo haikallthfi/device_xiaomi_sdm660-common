@@ -387,6 +387,9 @@ on post-fs-data
     #Start move time data to /data/vendor once post-fs-data done
     start vendor.move_time_data
 
+    # Default enable uicc_se
+    setprop persist.vendor.radio.uicc_se_enabled true
+
 service nqnfcinfo /system/vendor/bin/nqnfcinfo
     class late_start
     group nfc
