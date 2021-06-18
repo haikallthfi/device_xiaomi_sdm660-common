@@ -46,6 +46,9 @@ ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
+# Disable rescue party sometimes is fucked and the rom wants clean shit
+persist.device_config.configuration.disable_rescue_party=true
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
