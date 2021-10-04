@@ -14,6 +14,9 @@ persist.bluetooth.a2dp_offload.disabled=false
 ro.bluetooth.a2dp_offload.supported=true
 ro.bluetooth.library_name=libbluetooth_qti.so
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Display
 debug.sf.early_app_phase_offset_ns=1500000
 debug.hwui.use_buffer_age=false
