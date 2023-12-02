@@ -95,6 +95,7 @@ vendor.display.enable_default_color_mode=1
 vendor.display.enable_force_split=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_scaler=1
+vendor.display.perf_hint_window=50
 
 # DRM
 drm.service.enabled=true
@@ -111,6 +112,7 @@ persist.vendor.dpm.nsrm.bkg.evt=3955
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 vendor.perf.framepacing.enable=1
+ro.vendor.perf.scroll_opt=true
 
 # Radio
 persist.vendor.data.iwlan.enable=true
