@@ -71,6 +71,14 @@ vendor.audio.adm.buffering.ms=3
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.usb.disable.sidetone=true
 
+# Battery Tweaks
+power.saving.mode=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=0
+ro.ril.power_collapse=1
+ro.vold.umsdirtyratio=20
+
 # Bluetooth
 vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.bt.a2dp.aac_whitelist=false
@@ -89,6 +97,7 @@ persist.vendor.cne.feature=1
 # Display
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+debug.performance.tuning=1
 ro.opengles.version=196610
 ro.vendor.display.cabl=0
 persist.hwc.enable_vds=0
