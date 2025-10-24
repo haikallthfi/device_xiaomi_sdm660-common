@@ -466,6 +466,9 @@ PRODUCT_PACKAGES += \
     vndk-ext \
     vndk_package
 
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
