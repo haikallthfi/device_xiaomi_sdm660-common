@@ -96,6 +96,9 @@ vendor.display.enable_force_split=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_scaler=1
 
+# DRM
+drm.service.enabled=true
+
 # Media
 vendor.vidc.dec.enable.downscalar=1
 vendor.vidc.enc.disable_bframes=1
